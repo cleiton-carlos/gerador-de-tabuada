@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --colorBlack: #000;
+  --colorWhite: #fff;
+}
+
+header {
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
